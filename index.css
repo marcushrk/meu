@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+</style>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Space+Grotesk:wght@700&display=swap');
+</style>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Space+Grotesk:wght@700&display=swap');
+</style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@100 & display=swap');
+</style>
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(0deg, rgb(13, 64, 113) 0%, rgb(39, 96, 149) 100%);
+}
+
+.logo {
+    height: 180px;
+}
+
+.cabecalho { 
+    display: flex;
+    background-color: rgb(10, 57, 91);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+}
+
+.cabecalhotxt {
+    display: flex;
+    gap: 69px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.imagem {
+    
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.central {
+    margin-top: 4px;
+    gap: 50px;
+    border-top: 0.1px solid #e66000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 170px 200px;
+}
+
+.menu-button {
+    background-color:#e66000;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.menu {
+    display: none;
+    align-items: start;
+    position: absolute;
+    background-color: #e66000;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 180px;
+    height: 200px;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #095487;
+}
+
+.menu-button:focus + .menu {
+    display: block;
+}
+
+
+
+.historico {
+    display: flex ;
+    color: white;
+    align-items: center ;
+    font-family: 'Montserrat';
+    font-weight:100;
+    font-size: 30px;
+    margin-top: 10Px;
+}
+
+.subcentral {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Assembleia {
+    margin-top: 200;
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: white;
+}
+
+.campo {
+    font-family: 'Montserrat'; 
+    color: white; 
+}
+
+nav button:hover {
+    color: #095487;
+}
+.botao {
+    background-color: rgb(4, 31, 64);
+    color: white;
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+.igreja {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight:100;
+    font-size: 20px;
+    margin-top: 80 px;
+}
+.rodape {
+    line-height: 2px;
+    background:  #e66000;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    gap: 100px;
+    align-items: center;
+    justify-content: left;;
+    font-family: "Open Sans", sans-serif;
+    font-weight :0 ;
+    font-size: 30px;
+    padding: 50px 200px
+}
+
+.Localização {
+    line-height: 30px;
+    display: flex;
+    background-color: rgb(10, 68, 112);
+    height: 40px;
+    width: 220px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    font-family: "montserrat";
+}
+
+.Contato {
+    line-height: 30px;
+    display: flex;
+    background-color: rgb(10, 68, 112);
+    height: 35px;
+    width: 150px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    font-family: "montserrat";
+}
+
+.inforodape {
+    line-height:2;
+}
+
+.logorodape {
+    height: 160px;
+}
+
+.email {
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.Departamentos {
+    display: flex;
+    background-color: #e66000;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.Congregações {
+    display: flex;
+    background-color: #e66000;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.Agenda {
+    display: flex;
+    background-color:  #e66000;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;    
+}
+
+.Sobre {
+    display: flex;
+    background-color: #e66000;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+@media (max-width: 1200px){
+    .body {
+        flex-direction: column;
+    }
+    .central {
+        flex-direction: column;
+        justify-content: left;
+        padding: 50px;
+    }
+    .cabecalho {
+        gap: 10px;
+    }
+    .cabecalhotxt {
+        font-size: 8px;
+        gap: 10px;
+        padding: 0px, 20px;
+    }
+    .logo {
+        height: 60px;
+}
+.inforodape {
+    justify-content: start;
+    flex-direction: le;
+    align-items: start;
+}
+
+.rodape {
+    gap: 10px;
+    display: flex;
+    flex-grow: 4;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 7px;
+line-height: 10px;
+padding: 50px 70px;
+}
+
+.logorodape {
+    height: 70px;
+    align-items: center;
+}
+
+.imagem {
+    height:25vh;
+}
+.igreja {
+    font-size: 12px;
+}
+.campo {
+    font-size: 20px;
+}
+.historico {
+    font-size: 12px;
+}
+.Assembleia {
+    font-size: 20px; 
+}
+.Departamentos {
+    display: flex;
+    background-color: rgb(179, 63, 0);
+    color: white;
+    border-radius: 2px;;
+    justify-content: center;
+}
+
+.Congregações {
+    display: flex;
+    background-color: rgb(179, 63, 0);
+    color: white;
+    width: 65px;
+    height: 20px;
+    border-radius: 2px;
+    border: none;
+    align-items: center ;
+    justify-content: center;
+}
+
+.Agenda {
+    display: flex;
+    background-color: rgb(179, 63, 0);
+    color: white;
+    width: 65px;
+    height: 20px;
+    border-radius: 2px;
+    align-items: center ;
+    justify-content: center;    
+}
+
+.Sobre {
+    display: flex;
+    background-color: rgb(179, 63, 0);
+    color: white;
+    width: 60px;
+    height: 20px;
+    border-radius: 2px;
+    align-items: center ;
+    justify-content: center;
+}
+
+.botao {
+    width: 120px;
+    height: 20px;
+    font-size: 10px;
+}
+
+.Localização {
+    line-height: 10px;
+    height: 13px;
+    width: 57px;
+    border-radius: 2px;
+}
+
+
+
+.Contato {
+    height: 10px;
+    width: 40px;
+    border-radius: 2px;
+    line-height: 20px;
+}
+
+.menu-button {
+    display: flex;
+    background-color: rgb(179, 63, 0);
+    color: white;
+    width: 65px;
+    height: 15px;
+    border-radius: 2px;
+    border: none;
+    
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fff;
+    
+    font-size: 8px;
+    cursor: pointer;
+    align-items: center;
+    
+    
+
+}
+
+.menu {
+    display: none;
+    align-items: start;
+    justify-content: center;
+    position: absolute;
+    background-color: #e66000;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 65px;
+    height: 100px;
+
+}
+
+}
+
